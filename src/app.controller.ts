@@ -37,7 +37,7 @@ export class AppController {
   }
 
 
-  //ejemplo de Query params (http://yolo?version)
+  //ejemplo de Query params (http://ruta?version)
   @Get('docs')
   getDocs(@Query('version') version) {
     if (version && version === '5') {
